@@ -50,7 +50,7 @@ const MovieInfo = () => {
               <div>
                 <strong>Actors:</strong>{" "}
                 {infoMovie.Actors.split(", ").map((act) => (
-                  <p className="bg-gray-500 inline-block p-2 rounded-2xl m-1">
+                  <p  key={act} className="bg-gray-500 inline-block p-2 rounded-2xl m-1">
                     {act}
                   </p>
                 ))}
