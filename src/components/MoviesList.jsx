@@ -25,7 +25,7 @@ const MoviesList = () => {
       <select
         name="Type"
         id="content-type"
-        className="absolute top-4 left-5 bg-background py-3 pl-5 rounded-lg"
+        className="absolute top-4 left-5 bg-background py-3 pr-5 rounded-lg"
         onChange={handleTypeChange}
       >
         <option value="all">All</option>
