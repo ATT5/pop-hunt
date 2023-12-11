@@ -19,7 +19,7 @@ const useInfo = () => {
   const fetchMovieInfo = async (el) => {
     try {
       const apiKey = "1f83c040";
-      const url = `http://www.omdbapi.com/?s=&i=${el}&apikey=${apiKey}`;
+      const url = `https://www.omdbapi.com/?s=&i=${el}&apikey=${apiKey}`;
 
       const fetchData = await fetch(url);
 
